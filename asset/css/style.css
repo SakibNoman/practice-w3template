@@ -12,16 +12,24 @@ header h1{
     font-weight: 400;
     font-size: 37px;
 }
+#nameId{
+    background-color: black;
+    width: 100px;
+    height: 25px;
+    color: white;
+    display:inline-block;
+    margin-left: 6px;
+}
+#pId{
+    padding: 3px;
+    margin: 0px;
+}
 header h5{
     text-transform:initial;
     text-align: center;
     font-family: sans-serif;
     font-weight: 200;
     font-size: 15px;
-}
-header h5 span{
-    background-color: black;
-    color: white;
 }
 .post{
     width: 100%;
