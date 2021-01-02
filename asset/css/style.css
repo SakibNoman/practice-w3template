@@ -1,0 +1,85 @@
+body{
+    background-color: #F1F1F1;
+    margin: 0px;
+}
+header{
+    margin-top: 50px;
+}
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+}
+header h5{
+    text-transform:initial;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+header h5 span{
+    background-color: black;
+    color: white;
+}
+.post{
+    width: 100%;
+    margin: 25px 10px;
+    box-shadow: 5px 10px 8px #888888
+}
+.post img{
+    width: 100%;
+}
+.desc{
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.desc h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.desc h3{
+    font-weight: lighter;
+}
+button{
+    height: 50px;
+    width: 160px;
+    margin: 0px 0px 10px 10px;
+}
+.post button:hover{
+    
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.sidebar{
+    width: 100%;
+    box-shadow: 5px 10px 9px #888888;
+    margin-left: 120px;
+}
+.main-list{
+    width: 60%;
+}
+.sidebar{
+    width: 30%;
+    margin-top: 25px;
+}
+.sidebar img{
+    width: 100%;;
+}
+section{
+    float: left;
+}
+footer{
+    height: 170px;
+    background-color: #4d4949;
+    padding: 50px;
+    clear: both;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 120px;
+}
